@@ -1,0 +1,6 @@
+import time
+ 
+t = time.localtime(time.time())
+str = "Current Time:" + time.asctime(t)
+ 
+print(str);
